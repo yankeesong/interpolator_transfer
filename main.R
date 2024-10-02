@@ -384,5 +384,7 @@ limit_design_shift = function(n1, n2, p, lambda, sigma, sigma_beta, v1s, v2s){
       risk_inter_limit = sigma^2 * var_over_limit
     }
   }
+  
+  return (risk_inter_limit)
 }
 
